@@ -2,7 +2,6 @@
 
 Welcome to **ChronoClimateHub**, where time tells the tale of our planet's transformations. Through captivating timelapse videos, witness the profound shifts in climate, biodiversity, and ecological landscapes across various regions of the world. 
 
-**Link to app:** https://chronoclimateappgit-zsuytohqdnnuknyabqrprx.streamlit.app/
 
 ## Featured Timelapse Chronicles: PlanetPulse 🎥
 
@@ -25,3 +24,6 @@ Welcome to **ChronoClimateHub**, where time tells the tale of our planet's trans
 ## Getting Involved 🚀
 
 1. Clone the repository: git clone https://github.com/SamMajumder/ChronoClimateHub.git
+2. Launch the Streamlit app from Anaconda command prompt: streamlit run About.py 
+
+
