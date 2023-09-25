@@ -14,13 +14,19 @@ Welcome to **ChronoClimateHub**, where time tells the tale of our planet's trans
 ## Data Sources 📊
 
 - Temperature, SPEI, and other climate data are primarily sourced from the [National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/).
-- NDVI insights for the Sundarbans are derived from the MODIS satellite's MOD13A2 product.
+  **Citation for Temperature data:** Vose, Russell S., Applequist, Scott, Squires, Mike, Durre, Imke, Menne, Matthew J., Williams, Claude N. Jr., Fenimore, Chris, Gleason, Karin, and Arndt, Derek 
+                                     (2014): NOAA Monthly U.S. Climate Gridded Dataset (NClimGrid), Version 1. [indicate subset used]. NOAA National Centers for Environmental Information. DOI:10.7289/V5SX6B56 
+                                     [9/25/2023].
 
-## Key Features 🌟
+  **Citation for SPEI:** Link: https://www.drought.gov/data-maps-tools/us-gridded-standardized-precipitation-index-spei-nclimgrid-monthly
+                         Please let me know if you find an APA citation for this dataset. I'd be happy to change it.
 
-- **Engaging Timelapse Videos**: Dive deep into the visual stories of Earth's changing landscapes.
-- **Detailed Annotations**: Accompanying each video are insights and data sources to provide context to the visual narratives.
-- **Mobile Responsive**: Whether on desktop or mobile, enjoy a seamless viewing experience.
+- NDVI insights for the Sundarbans are derived from the MODIS satellite's MOD13A2 product [MODIS/061/MOD13A2](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD13A2#description).
+  **Citation:** Didan, K. (2021). MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-09-25 from 
+                https://doi.org/10.5067/MODIS/MOD13A2.061
+
+
+
 
 ## Getting Involved 🚀
 
