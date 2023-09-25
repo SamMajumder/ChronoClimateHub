@@ -7,7 +7,7 @@ Created on Sat Sep 23 10:47:14 2023
 
 # Import necessary libraries
 import streamlit as st 
-import requests
+
 
 st.set_page_config(page_title="ThermoPrecipTrends: Temperature & SPEI Changes in the Contiguous US")
 
@@ -27,22 +27,18 @@ st.write("""
 # Create two columns for side-by-side display
 col1, col2 = st.columns(2)
 
-# Fetch the temperature video from the URL
-response_temp = requests.get('https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/temperature_timelapse.mp4')
-temp_video_bytes = response_temp.content
-
-# Fetch the SPEI video from the URL
-response_spei = requests.get('https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/Spei_timelapse.mp4')
-spei_video_bytes = response_spei.content
+# Direct raw GitHub URLs for the videos
+temp_video_url = 'https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/temperature_timelapse.mp4'
+spei_video_url = 'https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/Spei_timelapse.mp4'
 
 # Display the temperature timelapse video in the first column
 with col1:
-    st.video(temp_video_bytes)
+    st.video(temp_video_url)
     st.write("Temperature Timelapse")  # Caption below the video
 
 # Display the SPEI timelapse video in the second column
 with col2:
-    st.video(spei_video_bytes)
+    st.video(spei_video_url)
     st.write("SPEI Timelapse")  # Caption below the video
 
 
