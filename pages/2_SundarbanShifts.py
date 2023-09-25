@@ -25,7 +25,7 @@ crucial due to its ecological importance and the threats it faces from climate c
 
 # Display the timelapse video
 
-st.image('https://github.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/blob/main/Sundarban_Biodiversity_beats.gif')
+st.image('https://raw.githubusercontent.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/main/Sundarban_Biodiversity_beats.gif')
 
 
 # Data Source Information
