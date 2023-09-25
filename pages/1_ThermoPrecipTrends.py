@@ -28,7 +28,7 @@ col1, col2 = st.columns(2)
 
 # Display the temperature timelapse video in the first column
 with col1:
-    st.image('https://github.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/blob/main/Temperature_Tunes/Timelapse_temperature.gif')
+    st.image('https://raw.githubusercontent.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/main/Temperature_Tunes/Timelapse_temperature.gif')
     st.write("Temperature Timelapse")  # Caption below the video
 
     # Display SPEI Data Information below the temperature video in the first column
@@ -37,7 +37,7 @@ with col1:
 
 # Display the SPEI timelapse video in the second column
 with col2:
-    st.image('https://github.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/blob/main/Aural_Aridity/Timelapse_SPEI.gif')
+    st.image('https://raw.githubusercontent.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/main/Aural_Aridity/Timelapse_SPEI.gif')
     st.write("SPEI Timelapse")  # Caption below the video
 
 
