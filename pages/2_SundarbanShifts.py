@@ -25,7 +25,11 @@ crucial due to its ecological importance and the threats it faces from climate c
 
 # Display the timelapse video
 
-st.image('https://raw.githubusercontent.com/SamMajumder/Data_Viz_Ecology_Sonification_Projects/main/Sundarban_Biodiversity_beats.gif')
+# Fetch the video from the URL
+sundarban_video_url = 'https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/Sundarbans_timelapse.mp4'
+
+# Display the video
+st.video(sundarban_video_url, format='video/mp4', start_time=0)
 
 
 # Data Source Information
