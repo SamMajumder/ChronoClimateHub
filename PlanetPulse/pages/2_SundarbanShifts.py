@@ -24,7 +24,7 @@ crucial due to its ecological importance and the threats it faces from climate c
 """)
 
 # Display the timelapse video
-video_file = open('C:/Users/samba/Documents/ChronoClimateHub/Timelapse_videos/Sundarbans_timelapse.mp4', 'rb')
+video_file = open('https://github.com/SamMajumder/ChronoClimateHub/blob/main/Timelapse_videos/Sundarbans_timelapse.mp4', 'rb')
 video_bytes = video_file.read()
 st.video(video_bytes)
 
