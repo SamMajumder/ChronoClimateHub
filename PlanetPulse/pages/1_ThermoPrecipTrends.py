@@ -28,7 +28,7 @@ col1, col2 = st.columns(2)
 
 # Display the temperature timelapse video in the first column
 with col1:
-    temp_video_file = open('C:/Users/samba/Documents/ChronoClimateHub/Timelapse_videos/temperature_timelapse.mp4', 'rb')
+    temp_video_file = open('https://github.com/SamMajumder/ChronoClimateHub/blob/main/Timelapse_videos/temperature_timelapse.mp4', 'rb')
     temp_video_bytes = temp_video_file.read()
     st.video(temp_video_bytes)
     st.write("Temperature Timelapse")  # Caption below the video
@@ -39,7 +39,7 @@ with col1:
 
 # Display the SPEI timelapse video in the second column
 with col2:
-    spei_video_file = open('C:/Users/samba/Documents/ChronoClimateHub/Timelapse_videos/Spei_timelapse.mp4', 'rb')
+    spei_video_file = open('https://github.com/SamMajumder/ChronoClimateHub/blob/main/Timelapse_videos/Spei_timelapse.mp4', 'rb')
     spei_video_bytes = spei_video_file.read()
     st.video(spei_video_bytes) 
     st.write("SPEI Timelapse")  # Caption below the video
