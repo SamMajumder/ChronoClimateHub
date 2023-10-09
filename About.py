@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 23 10:40:51 2023
 
-@author: samba
-"""
 
 import streamlit as st
 
