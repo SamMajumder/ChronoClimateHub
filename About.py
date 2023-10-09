@@ -27,7 +27,7 @@ st.markdown(
 col1, col2 = st.columns(2)
 
 # Direct raw GitHub URLs for the videos
-Aerosol_video_url = 'https://github.com/SamMajumder/ChronoClimateHub/blob/main/Timelapse_Videos/Aerosol_timelapse.mp4'
+Aerosol_video_url = 'https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/Aerosol_timelapse.mp4'
 
 
 
