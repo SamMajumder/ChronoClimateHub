@@ -28,7 +28,7 @@ col1, col2 = st.columns(2)
 
 # Direct raw GitHub URLs for the videos
 Aerosol_video_url = 'https://raw.githubusercontent.com/SamMajumder/ChronoClimateHub/main/Timelapse_Videos/Aerosol_timelapse.mp4'
-SO2_video_url = 
+
 
 
 # Display the Aerosol timelapse video in the first column
@@ -36,10 +36,7 @@ with col1:
     st.video(Aerosol_video_url)
     st.write("Monthly absorbing aerosol index variaitons in Delhi")  # Caption below the video
 
-# Display the SO2 timelapse video in the second column
-with col2:
-    st.video(SO2_video_url)
-    st.write("Monthly SO2 variations in New York")  # Caption below the video
+
 
 
 
