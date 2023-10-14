@@ -6,6 +6,8 @@ Welcome to **ChronoClimateHub**, where time tells the tale of our planet's trans
 
 1. **ThermoPrecipTrends**: Experience the temperature and SPEI fluctuations in the contiguous US from 1960 to September 2023.
 2. **SundarbanShifts**: Traverse the NDVI evolution between 2000 and 2023 within the Sundarbans, the majestic mangrove forest that stands as the world's largest.
+3. **AerosolOdyssey**: Traverse the absorbing aerosol index variations in New Delhi from November 2018 to August 2023, unveiling the atmospheric aerosol dynamics.
+4. **SO2Saga**: Witness the sulfur dioxide emission patterns over Staten Island, New York from November 2018 to August 2023, revealing the interplay of natural and anthropogenic emissions.
 
 ... and many more chronicles to be added soon!
 
@@ -25,7 +27,9 @@ Welcome to **ChronoClimateHub**, where time tells the tale of our planet's trans
   **Citation:** Didan, K. (2021). MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V061 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-09-25 from 
                 https://doi.org/10.5067/MODIS/MOD13A2.061
 
+- The aerosol data encapsulates the Absorbing Aerosol Index (AAI) which is pivotal for detecting absorbing aerosol particles in the atmosphere [COPERNICUS/S5P/NRTI/L3_AER_AI](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_AER_AI#terms-of-use)
 
+- The SO2 data, derived from the TROPOMI instrument on board the Sentinel-5P satellite, provides insights into sulfur dioxide emissions which have both natural and anthropogenic sources [Sentinel-5P NRTI SO2: Near Real-Time Sulfur Dioxide](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_NRTI_L3_SO2)
 
 
 ## Getting Involved 🚀
